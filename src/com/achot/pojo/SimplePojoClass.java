@@ -7,6 +7,7 @@ public class SimplePojoClass {
     private String simple;
     private String sina;
     private int code = 0;
+    private String test;
 
 
     public String getSimple() {
@@ -32,5 +33,13 @@ public class SimplePojoClass {
 
     public void setCode(int code) {
         this.code = code;
+    }
+
+    public String getTest() {
+        return test;
+    }
+
+    public void setTest(String test) {
+        this.test = test;
     }
 }
