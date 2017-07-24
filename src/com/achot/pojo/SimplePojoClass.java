@@ -5,6 +5,9 @@ package com.achot.pojo;
  */
 public class SimplePojoClass {
     private String simple;
+    private String sina;
+    private int code = 0;
+
 
     public String getSimple() {
         return simple;
@@ -12,5 +15,22 @@ public class SimplePojoClass {
 
     public void setSimple(String simple) {
         this.simple = simple;
+    }
+
+
+    public String getSina() {
+        return sina;
+    }
+
+    public void setSina(String sina) {
+        this.sina = sina;
+    }
+
+    public int getCode() {
+        return code;
+    }
+
+    public void setCode(int code) {
+        this.code = code;
     }
 }
